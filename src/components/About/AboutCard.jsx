@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Umair Imtiaz Khokhar </span>
             from <span className="purple"> Muzaffarabad, Azad Jammu & Kashmir.</span>
             <br />
-            I am currently a fifth-semester student pursuing a degree in Software Engineering. 
+            I Complete my degree in Software Engineering. 
             <br />
             I have developed a strong foundation in Full Stack Development.
             <br />
