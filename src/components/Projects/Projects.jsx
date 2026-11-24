@@ -9,6 +9,8 @@ import chatify from "../../Assets/Projects/health_app.png";
 import nexcent from "../../Assets/Projects/nexcentpage.png";
 import landingpage from "../../Assets/Projects/landingPagee.png";
 import ecomerece from "../../Assets/Projects/ecomerece.png";
+import disease from "../../Assets/Projects/disease.png";
+import resume from "../../Assets/Projects/resume.png";
 
 function Projects() {
   return (
@@ -33,6 +35,30 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={disease}
+              isBlog={false}
+              title="Plant Disease Detection Using ML"
+              description="Built a cross-platform mobile app (React Native, Expo) that identifies plant diseases from photos with 90% accuracy. •Engineered a full-stack mobile application with secure JWT authentication and REST API integration."
+              ghLink="https://github.com/UmairImtiazK/FYP-Plants-disease-dectection---react-native"
+              demoLink="/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={resume}
+              isBlog={false}
+              title="Smart Resume Classifier"
+              description="Built an ML pipeline using Python, Scikit-learn, and TF-IDF for resume classification across industry categories.
+• Achieved 95.8% accuracy, 95.1% precision, 95.3% recall, and a 95.2% F1-score with confusion matrices and cross-validation.
+• Shipped a Streamlit web app that analyzes skill gaps and parses resumes directly from PDF for automated screening."
+              ghLink="https://github.com/UmairImtiazK/NLP-Based-Smart-Resume-Classifier"
+              demoLink="/"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={admin_pannel}
