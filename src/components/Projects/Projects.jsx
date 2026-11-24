@@ -9,8 +9,8 @@ import chatify from "../../Assets/Projects/health_app.png";
 import nexcent from "../../Assets/Projects/nexcentpage.png";
 import landingpage from "../../Assets/Projects/landingPagee.png";
 import ecomerece from "../../Assets/Projects/ecomerece.png";
-import disease from "../../Assets/Projects/disease.png";
-import resume from "../../Assets/Projects/resume.png";
+import disease from "../../Assets/Projects/disease.avif";
+import resume from "../../Assets/Projects/resume.avif";
 
 function Projects() {
   return (
